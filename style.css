@@ -1,1 +1,79 @@
+body {
+    background-color: #e7e7e7;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
 
+.header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    width: 350px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    height: 120px;
+    width: auto;
+}
+
+.title {
+    padding-top: 80px;
+    font-size: 38px;
+}
+
+.text {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+pre {
+    background-color: rgb(224, 221, 221);
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.experience ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #e7e7e7;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+.education ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #e7e7e7;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+.experience ul a:hover {
+    background-color: #00000017;
+}
+
+.education ul a:hover {
+    background-color: #00000017;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+}
