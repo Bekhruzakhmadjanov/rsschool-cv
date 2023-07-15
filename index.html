@@ -13,112 +13,107 @@
 </head>
 
 <body>
-    <div class="content">
-    <nav id="navbar" class="navbar visible">
-        <img src="https://avatars.githubusercontent.com/u/75391000?v=4" alt="profile picture" class="profile-picture">
-        <div class="nav-items">
-            <a href="#contact">Contact</a>
-            <a href="#bio">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#code-example">Code-Example</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#languages">Languages</a>
+        <nav id="navbar" class="navbar visible">
+            <img src="https://avatars.githubusercontent.com/u/75391000?v=4" alt="profile picture" class="profile-picture">
+            <div class="nav-items">
+                <a href="#contact">Contact</a>
+                <a href="#bio">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#code-example">Code-Example</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#languages">Languages</a>
+            </div>
+        </nav>
+        <div class="content">
+        <div class="header">
+            <span class="name">Akhmadjonov Bekhruz</span>
         </div>
-    </nav>
-
-    <div class="header">
-        <span class="name">Akhmadjonov Bekhruz</span>
-    </div>
-    <hr>
-    <div class="contact" id="contact">
-        <div class="title">Contact</div>
-        <ul>
-            <li class="text">Email: behruzahmadjanov@icloud.com</li>
-            <li class="text">Telegram: @Behruz0801</li>
-        </ul>
-    </div>
-
-    <div class="bio" id="bio">
         <hr>
-        <div class="title">About me</div>
-        <p class="text">I'm a front-end developer and future full-stack web and app developer, who is also going to
-            study cybersecurity.</p>
-        <hr>
-    </div>
+        <div class="contact" id="contact">
+            <div class="title">Contact</div>
+            <ul>
+                <li class="text">Email: behruzahmadjanov@icloud.com</li>
+                <li class="text">Telegram: @Behruz0801</li>
+            </ul>
+        </div>
 
-    <div class="skills" id="skills">
-        <div class="title">Skills</div>
-        <ul>
-            <li class="text">HTML &amp; CSS</li>
-            <li class="text">JavaScript</li>
-            <li class="text">Java</li>
-            <li class="text">Figma</li>
-        </ul>
-    </div>
+        <div class="bio" id="bio">
+            <hr>
+            <div class="title">About me</div>
+            <p class="text">I'm a front-end developer and future full-stack web and app developer, who is also going to
+                study cybersecurity.</p>
+            <hr>
+        </div>
 
-    <div class="code-example" id="code-example">
-        <hr>
-        <div class="title">Code Example</div>
-        <!-- <hr> -->
-        <pre><code>function sumDigPow(a, b) {
-    let res = [];
+        <div class="skills" id="skills">
+            <div class="title">Skills</div>
+            <ul>
+                <li class="text">HTML &amp; CSS</li>
+                <li class="text">JavaScript</li>
+                <li class="text">Java</li>
+                <li class="text">Figma</li>
+            </ul>
+        </div>
 
-    for (let i = a; i &lt;= b; i++) {
-        let sum = 0;
-        let digits = i.toString().split('');
+        <div class="code-example" id="code-example">
+            <hr>
+            <div class="title">Code Example</div>
+            <pre><code>function sumDigPow(a, b) {
+        let res = [];
 
-        for (let i = 0; i &lt; digits.length; i++) {
-            sum += Math.pow(parseInt(digits[i]), i + 1);
+        for (let i = a; i &lt;= b; i++) {
+            let sum = 0;
+            let digits = i.toString().split('');
+
+            for (let i = 0; i &lt; digits.length; i++) {
+                sum += Math.pow(parseInt(digits[i]), i + 1);
+            }
+
+            if (sum === i) {
+                res.push(i);
+            }
         }
 
-        if (sum === i) {
-            res.push(i);
-        }
-    }
-
-    return res;
-}</code></pre>
-    <hr>
-    </div>
-
-    <div class="experience" id="experience">
-        <!-- <hr> -->
-        <div class="title">Experience</div>
-        <p class="text">Projects made during the education</p>
-        <ul>
-            <li class="text"><a href="https://github.com/Bekhruzakhmadjanov/rock-paper-scissors">Rock Paper Scissors</a>
-            </li>
-            <li class="text"><a href="https://bekhruzakhmadjanov.github.io/odin-recipes/">Recipes</a></li>
-            <li class="text"><a href="https://bekhruzakhmadjanov.github.io/zira-restaurant/">Restaurant</a></li>
-        </ul>
-    </div>
-
-    <div class="education" id="education">
+        return res;
+    }</code></pre>
         <hr>
-        <div class="title">Education</div>
-        <ul>
-            <li class="text"><a href="https://lyceum.wiut.uz/en/">Academic Lyceum of WIUT:</a> 2019-2021</li>
-            <li class="text"><a href="https://www.murdochuniversitydubai.com/">Murdoch University Dubai:</a> 2021-2024`
-            </li>
-        </ul>
+        </div>
+
+        <div class="experience" id="experience">
+            <div class="title">Experience</div>
+            <p class="text">Projects made during the education</p>
+            <ul>
+                <li class="text"><a href="https://github.com/Bekhruzakhmadjanov/rock-paper-scissors">Rock Paper Scissors</a>
+                </li>
+                <li class="text"><a href="https://bekhruzakhmadjanov.github.io/odin-recipes/">Recipes</a></li>
+                <li class="text"><a href="https://bekhruzakhmadjanov.github.io/zira-restaurant/">Restaurant</a></li>
+            </ul>
+        </div>
+
+        <div class="education" id="education">
+            <hr>
+            <div class="title">Education</div>
+            <ul>
+                <li class="text"><a href="https://lyceum.wiut.uz/en/">Academic Lyceum of WIUT:</a> 2019-2021</li>
+                <li class="text"><a href="https://www.murdochuniversitydubai.com/">Murdoch University Dubai:</a> 2021-2024`
+                </li>
+            </ul>
+            <hr>
+        </div>
+
+        <div class="languages" id="languages">
+            <div class="title">Languages</div>
+            <ul>
+                <li class="text">Uzbek - Native</li>
+                <li class="text">Russian - Native</li>
+                <li class="text">English - B2</li>
+            </ul>
+        </div>
+
         <hr>
     </div>
-
-    <div class="languages" id="languages">
-        <!-- <hr> -->
-        <div class="title">Languages</div>
-        <ul>
-            <li class="text">Uzbek - Native</li>
-            <li class="text">Russian - Native</li>
-            <li class="text">English - B2</li>
-        </ul>
-    </div>
-
-    <hr>
-
-    </div>
-
+    
     <footer id="footer">
         <p>Copyright © 2023. Designed by <a href="https://github.com/Bekhruzakhmadjanov">Akhmadjonov Bekhruz</a></p>
         <a href="https://rs.school/js/" class="rss"><img src="img/rs_school_js.svg" alt=""></a>
